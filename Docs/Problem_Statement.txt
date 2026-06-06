@@ -1,0 +1,5 @@
+Ganga Maxx Marketplace manages a large number of cleaning and hygiene products across multiple warehouses. Currently, inventory tracking is done manually using spreadsheets, messages, and calls, which leads to delays, human errors, and inefficient stock management.
+
+There is no centralized system to track batch numbers, expiry dates, stock movement, and reorder levels in real time. This results in stock mismatch, expiry losses, and slow order fulfillment.
+
+A web-based Warehouse Management System is required to digitize and streamline inventory operations.
