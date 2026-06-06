@@ -1,0 +1,5 @@
+The Cleaning & Hygiene Product Warehouse Management System is a web-based application developed for Ganga Maxx Marketplace to manage inventory efficiently.
+
+The system tracks cleaning products based on category, brand, pack size, warehouse location, batch number, and expiry date. It supports stock entry, stock movement tracking, low-stock alerts, and inventory reporting.
+
+The main goal is to reduce manual effort, improve accuracy, prevent expiry losses, and ensure smooth warehouse operations.
