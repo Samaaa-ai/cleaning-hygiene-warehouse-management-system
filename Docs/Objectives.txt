@@ -1,0 +1,5 @@
+1. To develop a centralized warehouse management system
+2. To track cleaning and hygiene product inventory
+3. To manage batch-wise and expiry-wise stock
+4. To reduce manual errors in stock tracking
+5. To improve warehouse efficiency and reporting system
