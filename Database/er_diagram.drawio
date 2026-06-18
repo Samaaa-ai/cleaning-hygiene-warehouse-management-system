@@ -1,0 +1,60 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="n5-VMF4fKu1zaLy88dSv">
+    <mxGraphModel dx="1030" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OHmLOo7qmyuxQhjVX-PA-9" edge="1" parent="1" source="OHmLOo7qmyuxQhjVX-PA-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="OHmLOo7qmyuxQhjVX-PA-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OHmLOo7qmyuxQhjVX-PA-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="ROLES&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-----------&lt;br&gt;&lt;/span&gt;role_id (PK)&lt;/div&gt;&lt;div&gt;role_name&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="60" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OHmLOo7qmyuxQhjVX-PA-18" edge="1" parent="1" source="OHmLOo7qmyuxQhjVX-PA-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" target="OHmLOo7qmyuxQhjVX-PA-4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="620" />
+              <mxPoint x="640" y="620" />
+              <mxPoint x="640" y="680" />
+            </Array>
+            <mxPoint x="487.5" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OHmLOo7qmyuxQhjVX-PA-20" edge="1" parent="1" source="OHmLOo7qmyuxQhjVX-PA-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="OHmLOo7qmyuxQhjVX-PA-3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="620" />
+              <mxPoint x="324" y="620" />
+              <mxPoint x="324" y="660" />
+            </Array>
+            <mxPoint x="290" y="289.8947368421053" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OHmLOo7qmyuxQhjVX-PA-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;STOCK_BATCHES&lt;/div&gt;&lt;div&gt;-----------&lt;/div&gt;&lt;div&gt;batch_id (PK)&lt;/div&gt;&lt;div&gt;product_id (FK)&lt;/div&gt;&lt;div&gt;warehouse_id (FK)&lt;/div&gt;&lt;div&gt;batch_number&lt;/div&gt;&lt;div&gt;manufacture_date&lt;/div&gt;&lt;div&gt;expiry_date&lt;/div&gt;&lt;div&gt;quantity&lt;br&gt;created_at&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="178.75" x="410" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="OHmLOo7qmyuxQhjVX-PA-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;INVENTORY_TRANSACTIONS&lt;/div&gt;&lt;div&gt;-----------&lt;/div&gt;&lt;div&gt;transaction_id (PK)&lt;/div&gt;&lt;div&gt;batch_id (FK)&lt;/div&gt;&lt;div&gt;transaction_type&lt;/div&gt;&lt;div&gt;quantity&lt;/div&gt;&lt;div&gt;remarks&lt;/div&gt;&lt;div&gt;transaction_date&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="202.5" x="217.5" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="OHmLOo7qmyuxQhjVX-PA-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;WAREHOUSES&lt;/div&gt;&lt;div&gt;-----------&lt;/div&gt;&lt;div&gt;warehouse_id (PK)&lt;/div&gt;&lt;div&gt;warehouse_name&lt;/div&gt;&lt;div&gt;location&lt;br&gt;created_at&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="170" x="580" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="OHmLOo7qmyuxQhjVX-PA-12" edge="1" parent="1" source="OHmLOo7qmyuxQhjVX-PA-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="OHmLOo7qmyuxQhjVX-PA-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OHmLOo7qmyuxQhjVX-PA-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;PRODUCTS&lt;/div&gt;&lt;div&gt;-----------&lt;/div&gt;&lt;div&gt;&lt;div&gt;product_id (PK)&lt;/div&gt;&lt;div&gt;product_name&lt;/div&gt;&lt;div&gt;brand&lt;/div&gt;&lt;div&gt;sku&lt;/div&gt;&lt;div&gt;pack_size&lt;/div&gt;&lt;div&gt;category_id (FK)&lt;/div&gt;&lt;div&gt;reorder_level&lt;/div&gt;&lt;div&gt;created_at&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="200" x="399.38" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="OHmLOo7qmyuxQhjVX-PA-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;USERS&lt;/div&gt;&lt;div&gt;-----------&lt;/div&gt;&lt;div&gt;&lt;div&gt;user_id (PK)&lt;/div&gt;&lt;div&gt;full_name&lt;/div&gt;&lt;div&gt;email&lt;/div&gt;&lt;div&gt;phone&lt;/div&gt;&lt;div&gt;password&lt;/div&gt;&lt;div&gt;role_id (FK)&lt;/div&gt;&lt;div&gt;created_at&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="140" x="50" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="OHmLOo7qmyuxQhjVX-PA-11" edge="1" parent="1" source="OHmLOo7qmyuxQhjVX-PA-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="OHmLOo7qmyuxQhjVX-PA-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OHmLOo7qmyuxQhjVX-PA-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;PRODUCT_CATEGORIES&lt;/div&gt;&lt;div&gt;-----------&lt;/div&gt;&lt;div&gt;category_id (PK)&lt;/div&gt;&lt;div&gt;category_name&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="420" y="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

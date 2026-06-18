@@ -1,0 +1,65 @@
+TABLE 1: roles
+
+role_id (Primary Key)
+role_name
+
+-----------------------------------
+
+TABLE 2: users
+
+user_id (Primary Key)
+full_name
+email
+phone
+password
+role_id (Foreign Key)
+
+-----------------------------------
+
+TABLE 3: product_categories
+
+category_id (Primary Key)
+category_name
+
+-----------------------------------
+
+TABLE 4: products
+
+product_id (Primary Key)
+product_name
+brand
+sku
+pack_size
+category_id (Foreign Key)
+reorder_level
+
+-----------------------------------
+
+TABLE 5: warehouses
+
+warehouse_id (Primary Key)
+warehouse_name
+location
+
+-----------------------------------
+
+TABLE 6: stock_batches
+
+batch_id (Primary Key)
+product_id (Foreign Key)
+warehouse_id (Foreign Key)
+batch_number
+manufacture_date
+expiry_date
+quantity
+
+-----------------------------------
+
+TABLE 7: inventory_transactions
+
+transaction_id (Primary Key)
+batch_id (Foreign Key)
+transaction_type
+quantity
+remarks
+transaction_date
