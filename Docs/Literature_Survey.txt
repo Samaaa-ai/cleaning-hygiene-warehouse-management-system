@@ -1,0 +1,74 @@
+# Literature Survey
+
+Before starting the development of the Cleaning & Hygiene Product Warehouse Management System, I studied some existing inventory and warehouse management systems to understand their features and working process. This helped me identify useful functionalities and understand the requirements of my project.
+
+## 1. SAP Warehouse Management
+
+SAP Warehouse Management is widely used in large industries and organizations. It helps in managing inventory, tracking stock movement, and handling warehouse operations efficiently. The system provides real-time inventory updates and detailed reports.
+
+### Advantages
+
+* Real-time inventory tracking
+* Supports multiple warehouses
+* Detailed reporting and analytics
+
+### Limitations
+
+* Expensive to implement
+* Difficult for small businesses to use
+* Requires professional training
+
+---
+
+## 2. Zoho Inventory
+
+Zoho Inventory is a cloud-based inventory management software mainly used by small and medium-sized businesses. It helps in stock management, order tracking, and warehouse management.
+
+### Advantages
+
+* Easy to use
+* User-friendly interface
+* Accessible from anywhere through the cloud
+
+### Limitations
+
+* Limited customization options
+* Some advanced warehouse features are not available
+* Requires subscription plans
+
+---
+
+## 3. Odoo Inventory
+
+Odoo Inventory is an open-source inventory management system. It provides features such as stock tracking, warehouse management, and inventory control. Since it is open-source, it can be customized according to business requirements.
+
+### Advantages
+
+* Open-source and customizable
+* Supports warehouse operations
+* Cost-effective solution
+
+### Limitations
+
+* Requires technical knowledge for customization
+* Configuration can be time-consuming
+
+---
+
+## Comparative Study
+
+After studying these systems, I observed that they provide common features such as inventory tracking, warehouse management, and stock monitoring. However, they do not specifically focus on cleaning and hygiene product management.
+
+My proposed system will include features such as:
+
+* Product inventory management
+* Batch tracking
+* Expiry date monitoring
+* Stock movement tracking
+* Low stock alerts
+* Warehouse management
+* Compliance and safety record management
+
+## Conclusion
+
+From the literature survey, I understood the importance of inventory management systems in maintaining stock accuracy and warehouse efficiency. The proposed Cleaning & Hygiene Product Warehouse Management System aims to provide a simple and effective solution specifically for cleaning and hygiene product inventory management.

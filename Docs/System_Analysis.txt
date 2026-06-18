@@ -1,0 +1,54 @@
+# System Analysis
+
+## Introduction
+
+System analysis is the process of studying the existing system, identifying its limitations, and proposing a better solution. For this project, the existing inventory and warehouse management process was analyzed to understand the challenges faced while managing cleaning and hygiene products.
+
+## Existing System
+
+Many organizations and warehouses still manage inventory using spreadsheets, manual records, phone calls, and paper-based documentation. Stock details are updated manually, which increases the chances of human error and data inconsistency.
+
+Warehouse staff often spend a significant amount of time checking stock availability, tracking product movement, and maintaining records of incoming and outgoing products.
+
+## Problems in the Existing System
+
+The following problems were identified in the existing system:
+
+1. Manual inventory tracking can lead to incorrect stock records.
+2. Difficulty in monitoring product expiry dates.
+3. Delays in updating stock information.
+4. Lack of centralized warehouse data.
+5. Increased chances of stock shortages and overstocking.
+6. Time-consuming report generation process.
+7. Difficulty in tracking product batches and stock movement.
+
+## Proposed System
+
+The proposed Cleaning & Hygiene Product Warehouse Management System will provide a centralized platform for managing warehouse operations and inventory records.
+
+The system will allow users to:
+
+* Manage product information
+* Track stock levels
+* Monitor product batches
+* Track expiry dates
+* Record inward and outward stock movement
+* Manage warehouse inventory
+* Generate reports
+* Receive low stock alerts
+
+The system will be developed using React.js for the frontend, Node.js and Express.js for the backend, and PostgreSQL for database management.
+
+## Benefits of the Proposed System
+
+1. Improved inventory accuracy.
+2. Faster stock tracking and management.
+3. Better monitoring of expiry dates.
+4. Reduced manual work.
+5. Efficient warehouse operations.
+6. Easy report generation.
+7. Better decision-making through organized data.
+
+## Conclusion
+
+The proposed system aims to overcome the limitations of the existing manual inventory management process by providing an efficient, centralized, and user-friendly warehouse management solution. It will help organizations manage cleaning and hygiene products more effectively while improving operational efficiency and inventory control.
